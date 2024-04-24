@@ -18,8 +18,8 @@ jobs:
       - uses: actions/checkout@master
 
       - name: Add pyright annotator
-        uses: pr-annotators/pyright-pr-annotator@master
+        uses: EzraBrooks/pyright-pr-annotator@master
 
       - name: Run pyright
-        uses: jakebailey/pyright-action@v1
+        run: pyright
 ```
