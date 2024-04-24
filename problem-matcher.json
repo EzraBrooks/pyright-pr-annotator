@@ -4,7 +4,7 @@
             "owner": "pyright-error",
             "pattern": [
                 {
-                    "regexp": "^\\s+(\\S+):(\\d+):(\\d+)[\\s-]+([A-z]+): (.+)$",
+                    "regexp": "^\\s+(\\S+):(\\d+):(\\d+) - ([A-z]+): (.+)$",
                     "file": 1,
                     "line": 2,
                     "column": 3,
